@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONE PIECE</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #d4e6f1;
+        color: #34495e;
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+      }
+      header {
+        width: 90%;
+        height: auto;
+        margin: 50px auto 0;
+        background-color: #ffffff;
+        padding: 20px;
+        border: 1px solid #f39c12;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .logo {
+        width: 120px;
+        height: auto;
+      }
+      .logo img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+      }
+      header h1 {
+        color: #f39c12;
+        font-size: 70px;
+        margin: 0;
+        display: inline-block;
+      }
+      nav {
+        background-color: #f1c9a5;
+        padding: 5px 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+      }
+      nav img {
+        width: 50px;
+        height: auto;
+        margin-right: 10px;
+      }
+      @media (max-width: 768px) {
+        header {
+          text-align: center;
+          flex-direction: column;
+        }
+        .logo {
+          width: 80px;
+        }
+        header h1 {
+          font-size: 50px;
+        }
+        nav {
+          position: static;
+          transform: none;
+          display: block;
+        }
+        nav img {
+          display: none;
+        }
+      }
+      nav a {
+        color: #34495e;
+        font-size: 15px;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 0 10px;
+        transition: color 0.3s ease;
+      }
+      nav a:hover {
+        color: #e85860;
+      }
+      .caja {
+        background-color: #ffffff;
+        padding: 20px;
+        margin: 20px auto;
+        width: 80%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        font-size: 28px;
+        color: #f39c12;
+      }
+      .caja p {
+        padding-top: 10px;
+        padding-bottom: 5px;
+        text-align: justify;
+        font-size: 18px;
+      }
+      .center {
+        display: block;
+        margin: 10px auto;
+        width: 50%;
+      }
+      .pie {
+        background-color: #2980b9;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+      }
+      .pie p {
+        font-size: 12px;
+        font-weight: 800;
+        color: #fff;
+      }
+      .character-box {
+        background-color: #f39c12;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        float: left;
+        width: 18%;
+        margin: 1%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .character-box img {
+        width: 100px;
+        height: auto;
+        display: block;
+        margin: 0 auto 10px;
+        border-radius: 50%;
+      }
+      .character-box h3 {
+        margin: 5px 0;
+        font-size: 20px;
+      }
+      .clear {
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="" alt="Logo" />
+      </div>
+      <h1>ONE PIECE</h1>
+      <nav>
+        <a href="#ini">INICIO</a>
+        <a href="#per">PERSONAJES</a>
+        <a href="#tra">
+    </header>
+    <section class="caja">
+      <article>
+        <a id="ini"></a>
+        </p>
+      </article>
+      <article>
+        <a id="per"></a>
+        <h2>PERSONAJES</h2>
+        <p>Descripción de los personajes principales...</p>
+        <div class="character-box">
+          <img src="img\luffi.jpg" alt="Luffy" />
+          <h3>Monkey D. Luffy</h3>
+        </div>
+        <div class="character-box">
+          <img src="img\luffi.jpg" alt="Zoro" />
+          <h3>Roronoa Zoro</h3>
+        </div>
+        <div class="character-box">
+          <img src="img\luffi.jpg" alt="Nami" />
+          <h3>Nami</h3>
+        </div>
+        <div class="character-box">
+          <img src="img\luffi.jpg" alt="Sanji" />
+          <h3>Sanji</h3>
+        </div>
+        <div class="character-box">
+          <img src="img\luffi.jpg" alt="Robin" />
+          <h3>Nico Robin</h3>
+        </div>
+        <div class="clear"></div>
+      </article>
+      <article>
+        <a id="tra"></a>
+        <h2>TRAILER</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+          reprehenderit laboriosam in minima deserunt, similique illum nobis,
+          ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+          architecto dolores eveniet. Pariatur, eos!
+        </p>
+        <iframe
+          width="453"
+          height="280"
+          src="https://www.youtube.com/embed/sSovEWQGTwg"
+          title="One Piece: La Historia de LUFFY  | La vida de Monkey D. Luffy: Parte 1"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          class="center"
+        ></iframe>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+          reprehenderit laboriosam in minima deserunt, similique illum nobis,
+          ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+          architecto dolores eveniet. Pariatur, eos!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+          reprehenderit laboriosam in minima deserunt, similique illum nobis,
+          ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+          architecto dolores eveniet. Pariatur, eos!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+          reprehenderit laboriosam in minima deserunt, similique illum nobis,
+          ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+          architecto dolores eveniet. Pariatur, eos!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+          reprehenderit laboriosam in minima deserunt, similique illum nobis,
+          ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+          architecto dolores eveniet. Pariatur, eos!
+        </p>
+      </article>
+    </section>
+    <footer class="pie">
+      <p>DERECHOS RESERVADOS</p>
+    </footer>
+  </body>
+</html>

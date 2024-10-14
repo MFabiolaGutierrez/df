@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONE PIECE</title>
+    <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D4E6F1; 
+  color: #34495E;
+  font-family: 'Comic Sans MS', cursive, sans-serif; 
+}
+
+header {
+  width: 90%;
+  height: auto; 
+  margin: 50px auto 0;
+  background-color: #FFFFFF; 
+  padding: 20px; 
+  border: 1px solid #F39C12; 
+  border-radius: 5px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  position: relative; 
+  overflow: hidden;
+}
+
+.logo {
+  width: 120px; 
+  height: auto; 
+  float: left; 
+  margin-right: 20px; 
+  margin-top: 20px; 
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+header h1 {
+  color: #F39C12; 
+  font-size: 70px; 
+  margin: 0; 
+  display: inline-block; 
+  vertical-align: middle; 
+  float: left;
+}
+
+nav {
+  background-color: #f1c9a5; 
+  padding: 5px 10px; 
+  border-radius: 5px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  float: right; 
+  margin-top: 25px; 
+}
+
+@media (max-width: 768px) {
+  header {
+    text-align: center; 
+  }
+
+  .logo {
+    width: 80px; 
+    margin-top: 10px; 
+  }
+
+  header h1 {
+    font-size: 50px; 
+  }
+
+  .logo, header h1, nav {
+    float: none; 
+    display: block; 
+    width: 100%; 
+    margin: 10px 0;
+  }
+  
+  nav {
+    position: static; 
+    transform: none; 
+  }
+}
+
+nav a {
+  color: #34495E; 
+  font-size: 15px; 
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0 10px; 
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #e85860; 
+}
+
+.caja {
+  background-color: #FFFFFF; 
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+h2 {
+  font-size: 28px;
+  color: #F39C12;
+}
+
+.caja p {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: justify;
+  font-size: 18px; 
+}
+
+.center {
+  display: block;
+  margin: 10px auto;
+  width: 50%;
+}
+
+.pie {
+  background-color: #2980B9; 
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.pie p {
+  font-size: 12px;
+  font-weight: 800;
+  color: #fff; 
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img\logo.png" alt="" />
+        
+      </div>
+      <h1>ONE PIECE</h1>
+      <nav>
+        <a href="#ini">INICIO</a>
+        <a href="#per">PERSONAJES</a>
+        <a href="#tra">TRAILER</a>
+      </nav>
+    </header>
+    <section class="caja">
+      <article>
+        <a id="ini"></a>
+        <h2>INICIO</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+          reprehenderit laboriosam in minima deserunt, similique illum nobis,
+          ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+          architecto dolores eveniet. Pariatur, eos!
+        </p>
+      </article>
+      <article>
+        <a id="per"></a>
+        <h2>PERSONAJES</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+          reprehenderit laboriosam in minima deserunt, similique illum nobis,
+          ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+          architecto dolores eveniet. Pariatur, eos!
+        </p>
+        <img src="lufy.jpg" alt="" class="center" />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+          reprehenderit laboriosam in minima deserunt, similique illum nobis,
+          ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+          architecto dolores eveniet. Pariatur, eos!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+          reprehenderit laboriosam in minima deserunt, similique illum nobis,
+          ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+          architecto dolores eveniet. Pariatur, eos!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+          reprehenderit laboriosam in minima deserunt, similique illum nobis,
+          ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+          architecto dolores eveniet. Pariatur, eos!
+        </p>
+      </article>
+      <article>
+        <a id="tra"></a>
+        <h2>TRAILER</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+          reprehenderit laboriosam in minima deserunt, similique illum nobis,
+          ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+          architecto dolores eveniet. Pariatur, eos!
+        </p>
+        <iframe
+          width="453"
+          height="280"
+          src="https://www.youtube.com/embed/sSovEWQGTwg"
+          title="One Piece: La Historia de LUFFY 🔶 | La vida de Monkey D. Luffy: Parte 1"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          class="center"
+        ></iframe>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+          reprehenderit laboriosam in minima deserunt, similique illum nobis,
+          ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+          architecto dolores eveniet. Pariatur, eos!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+          reprehenderit laboriosam in minima deserunt, similique illum nobis,
+          ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+          architecto dolores eveniet. Pariatur, eos!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+          reprehenderit laboriosam in minima deserunt, similique illum nobis,
+          ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+          architecto dolores eveniet. Pariatur, eos!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+          reprehenderit laboriosam in minima deserunt, similique illum nobis,
+          ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+          architecto dolores eveniet. Pariatur, eos!
+        </p>
+      </article>
+    </section>
+    <footer class="pie">
+      <p>DERECHOS RESERVADOS</p>
+    </footer>
+  </body>
+</html>

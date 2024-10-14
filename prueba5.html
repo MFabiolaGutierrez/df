@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONE PIECE</title>
+    <style>
+        * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+        body {
+          font-family: "Roboto", sans-serif;
+          background-color: #f4f4f4;
+          color: #333;
+        }
+        header {
+          background-color: #ffc300; /* Bright yellow */
+          color: #000;
+          padding: 20px;
+          text-align: center;
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+        .logo {
+          display: flex;
+          align-items: center;
+        }
+        .logo img {
+          width: 50px;
+          height: auto;
+          margin-right: 10px;
+        }
+        .logo-text {
+          font-size: 2em;
+          font-weight: bold;
+        }
+        nav ul {
+          list-style: none;
+          padding: 0;
+          display: flex;
+          align-items: center;
+        }
+        nav ul li {
+          margin: 0 10px;
+        }
+        nav ul li a {
+          color: #000;
+          text-decoration: none;
+          font-weight: bold;
+        }
+        main {
+          padding: 20px;
+          text-align: center; /* Center-align the content */
+        }
+        section {
+          margin-bottom: 20px;
+        }
+        .gallery-vertical {
+          display: flex;
+          flex-direction: row;
+          gap: 20px;
+          justify-content: center; /* Center-align the gallery items */
+        }
+        .gallery-item {
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          text-align: center;
+          background-color: #ffd966; /* Light yellow */
+          padding: 10px;
+        }
+        .gallery-item img {
+          max-width: 100%;
+          height: auto;
+          display: block;
+          margin: 0 auto; /* Center-align images */
+        }
+        .gallery-item p {
+          max-width: 100%;
+          height: auto;
+          display: block;
+          margin: 0;
+        }
+        .historia-container {
+          display: flex;
+          gap: 20px;
+          background-color: #fff;
+          padding: 20px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .parrafo {
+          flex: 1;
+          padding: 10px;
+          margin-right: 20px;
+        }
+        .parrafo:last-child {
+          margin-right: 0;
+        }
+        .contactos-container {
+          display: flex;
+          gap: 20px;
+          background-color: #fff;
+          padding: 20px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          border-radius: 10px;
+        }
+        .contacto-item {
+          flex: 1;
+          padding: 20px;
+          border: 1px solid #ddd;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          border-radius: 10px;
+          text-align: center;
+          background-color: #f9f9f9;
+        }
+        .contacto-item h3 {
+          margin-bottom: 10px;
+        }
+        .contacto-item p {
+          margin: 5px 0;
+        }
+        .video-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+          background-color: #fff;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          border-radius: 10px;
+        }
+        video {
+          max-width: 100%;
+          height: auto;
+          border-radius: 10px;
+        }
+        footer {
+          background-color: #000;
+          color: #fff;
+          text-align: center;
+          padding: 20px;
+          position: relative;
+        }
+        .social-icons img {
+          width: 30px;
+          height: auto;
+          margin: 0 10px;
+        }
+      </style>
+   
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo.png" alt="One Piece Logo" />
+        <div class="logo-text">One Piece</div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#personajes">Personajes</a></li>
+          <li><a href="#historia">Historia</a></li>
+          <li><a href="#contactos">Contactos</a></li>
+          <li><a href="#donde-ver">Trailer</a></li>
+        </ul>
+      </nav>
+    </header>
+
+      <main>
+        <section id="personajes">
+          <h2>Personajes</h2>
+          <p>Descripción de los personajes principales...</p>
+          <div class="gallery-vertical">
+            <div class="gallery-item">
+              <img src="img\luffi.jpg" alt="Luffy" />
+              <p>Monkey D. Luffy</p>
+            </div>
+            <div class="gallery-item">
+              <img src="img\luffi.jpg" alt="Zoro" />
+              <p>Roronoa Zoro</p>
+            </div>
+            <div class="gallery-item">
+              <img src="img\luffi.jpg" alt="Nami" />
+              <p>Nami</p>
+            </div>
+            <div class="gallery-item">
+              <img src="img\luffi.jpg" alt="Sanji" />
+              <p>Sanji</p>
+            </div>
+            <div class="gallery-item">
+              <img src="img\luffi.jpg" alt="Robin" />
+              <p>Nico Robin</p>
+            </div>
+          </div>
+        </section>
+        <section id="historia">
+          <h2>Historia</h2>
+          <div class="historia-container">
+            <div class="parrafo">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, ab mollitia! Officia quisquam consequuntur perferendis eligendi saepe vitae, culpa soluta dolores nam neque maxime amet id laudantium voluptate at ducimus.
+              </p>
+            </div>
+            <div class="parrafo">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id eos nobis deserunt rem, ea labore, inventore magnam cumque iste aut molestiae, suscipit sed nihil sunt vero eveniet distinctio laborum hic.
+              </p>
+            </div>
+            <div class="parrafo">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, veniam sunt molestias quas laborum a cum adipisci rerum. Praesentium voluptas numquam soluta minus quod, unde quo. Exercitationem rem tempore provident.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="donde-ver">
+          <h2>Trailer</h2>
+          <p>...</p>
+          <iframe
+          width="453"
+          height="280"
+          src="https://www.youtube.com/embed/sSovEWQGTwg"
+          title="One Piece: La Historia de LUFFY 🔶 | La vida de Monkey D. Luffy: Parte 1"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          class="center"
+        ></iframe>
+          </div>
+        </section>
+        <section id="contactos">
+          <h2>Contactos</h2>
+          <div class="contactos-container">
+            <div class="contacto-item">
+              <h3>Email</h3>
+              <p>contacto@onepiece.com</p>
+            </div>
+            <div class="contacto-item">
+              <h3>Teléfono</h3>
+              <p>+12 73508005</p>
+            </div>
+            <div class="contacto-item">
+              <h3>Dirección</h3>
+              <p>Av. Arce Edificio Illimani piso 2</p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="social-icons">
+          <a href="https://facebook.com"><img src="icons/facebook-icon.png" alt="Facebook" /></a>
+          <a href="https://instagram.com"><img src="icons/instagram-icon.png" alt="Instagram" /></a>
+          <a href="https://x.com"><img src="[_{{{CITATION{{{_1{](https://github.com/lzh-yi/Web-Fork-/tree/024b3e55587afdf9f05a677613a75f24e3d1803e/03-CSS%E8%BF%9B%E9%98%B6%2F04-%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD%EF%BC%9F.md)
+          <a href="https://x.com"><img src="icons/x-icon.png" alt="X" /></a>
+          </div>
+        </footer>
+      </body>
+    </html>
+    
